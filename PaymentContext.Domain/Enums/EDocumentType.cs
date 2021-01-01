@@ -3,6 +3,6 @@ namespace PaymentContext.Domain.Enums
     public enum EDocumentType
     {
         CPF = 1,
-        CNP = 2
+        CNPJ = 2
     }
 }

@@ -20,5 +20,7 @@ namespace PaymentContext.Domain.ValueObjects
                 .HasMaxLen(FirstName, 40, nameof(Name.FirstName), "Nome deve conter até 40 caracteres")
             );
         }
+
+        public override string ToString() => $"{FirstName} {LastName}";
     }
 }
